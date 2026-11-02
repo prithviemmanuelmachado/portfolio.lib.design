@@ -4,11 +4,13 @@
   "private": true,
   "description": "Portfolio design project that exports common design tokens and icons",
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "build:tokens": "style-dictionary build --config style-dictionary.config.json"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
-    "husky": "^9.1.6"
+    "husky": "^9.1.6",
+    "style-dictionary": "^5.7.1"
   }
 }
